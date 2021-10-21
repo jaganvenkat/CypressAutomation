@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-10-21T14:48:59.597Z",
+    "end": "2021-10-21T14:49:20.868Z",
+    "duration": 21271,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "be61bd23-1f6a-4ae5-b0fd-2784d352e06d",
+      "title": "",
+      "fullFile": "cypress/integration/my-tests/rocketlane_assignment.js",
+      "file": "cypress/integration/my-tests/rocketlane_assignment.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f0883ceb-4a1c-4fcb-a8f4-a8f01dc0fd87",
+          "title": "rocketlane_assignment",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test login with valid credential",
+              "fullTitle": "rocketlane_assignment test login with valid credential",
+              "timedOut": null,
+              "duration": 4974,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const login = new _loginPage.default();\nlogin.doBasicAuth('admin', 'admin');\nlogin.verifyTitle('The Internet');\nlogin.verifyLoginSuccess('Congratulations! You must have the proper credentials.');",
+              "err": {},
+              "uuid": "feaf21af-d0c0-4a13-b839-140b368fd1fb",
+              "parentUUID": "f0883ceb-4a1c-4fcb-a8f4-a8f01dc0fd87",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test dynamic loading 1 ",
+              "fullTitle": "rocketlane_assignment test dynamic loading 1 ",
+              "timedOut": null,
+              "duration": 5955,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const dynamic = new _dynamicLoadingPage.default();\ndynamic.vistDynamicPage('1');\ndynamic.clickStart();\ndynamic.verifyTitle('The Internet');\ndynamic.verifyWelcomeMessageVisible('Hello World!');",
+              "err": {},
+              "uuid": "85caa348-9ac7-411c-a06b-ddf88f21812c",
+              "parentUUID": "f0883ceb-4a1c-4fcb-a8f4-a8f01dc0fd87",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test dynamic loading 2",
+              "fullTitle": "rocketlane_assignment test dynamic loading 2",
+              "timedOut": null,
+              "duration": 5862,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const dynamic = new _dynamicLoadingPage.default();\ndynamic.vistDynamicPage('2');\ndynamic.clickStart();\ndynamic.verifyTitle('The Internet');\ndynamic.verifyWelcomeMessageVisible('Hello World!');",
+              "err": {},
+              "uuid": "86112989-086c-437a-9aa7-85aacefad209",
+              "parentUUID": "f0883ceb-4a1c-4fcb-a8f4-a8f01dc0fd87",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test input can only accept numbers",
+              "fullTitle": "rocketlane_assignment test input can only accept numbers",
+              "timedOut": null,
+              "duration": 814,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const input = new _inputPage.default();\ninput.visitInputPage();\ninput.verifyTitle('The Internet');\ninput.verifyInputType('number');",
+              "err": {},
+              "uuid": "50d5b386-308e-4d24-9db1-d6e8eab9772d",
+              "parentUUID": "f0883ceb-4a1c-4fcb-a8f4-a8f01dc0fd87",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "feaf21af-d0c0-4a13-b839-140b368fd1fb",
+            "85caa348-9ac7-411c-a06b-ddf88f21812c",
+            "86112989-086c-437a-9aa7-85aacefad209",
+            "50d5b386-308e-4d24-9db1-d6e8eab9772d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 17605,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": "true",
+        "html": "true",
+        "charts": "true"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

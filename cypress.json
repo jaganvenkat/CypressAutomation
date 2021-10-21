@@ -1,0 +1,16 @@
+{
+    "defaultCommandTimeout": 30000,
+    
+    "reporter": "mochawesome",
+    "reporterOptions":{
+        "reportDir":"cypress/reports",
+        "reportFilename": "report",
+        "overwrite": "true",
+        "html":"true",
+        "charts":"true"
+    },
+
+    "retries": 2
+
+    
+}
