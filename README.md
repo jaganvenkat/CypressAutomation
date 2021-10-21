@@ -13,5 +13,5 @@ How to run testcases using cypress test runner?
 
 How to run testcases in cmd?
 
-1) .\node_modules\.bin\cypress run --spec .\cypress\integration\my-tests\rocketlane_assignment.js --browser electron
+1) .\node_modules\.bin\cypress run --spec .\cypress\integration\my-tests\rocketlane_assignment.js --browser <browsername>
        
