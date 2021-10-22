@@ -6,15 +6,15 @@
  Testing framework - Mocha
   
   cypress
-    fixtures - To store test data
-    integration\my-tests - to write test cases
-    pages - Contains page class  
-    plugins
-    reports - test reports
-    screenshots - screen shot taken upon faulures
-    videos - video of test execution
+    1) fixtures - To store test data
+    2) integration\my-tests - to write test cases
+    3) pages - Contains page class
+    4) plugins
+    5) reports - test reports
+    6) screenshots - screen shot taken upon faulures
+    7) videos - video of test execution
     
-   
+
  Choices made
  ------------
  
