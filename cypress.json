@@ -1,6 +1,9 @@
 {
     "defaultCommandTimeout": 30000,
-    
+    "uncaught":"exception",
+    "baseUrl":"https://gayathri.nitro.run",
+    "username":"YourUsername",
+    "password":"YourPassword",
     "reporter": "mochawesome",
     "reporterOptions":{
         "reportDir":"cypress/reports",
@@ -11,6 +14,7 @@
     },
 
     "retries": 2
+    
 
     
 }
